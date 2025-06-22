@@ -18,7 +18,7 @@ const About = () => {
         {/* Right - Text */}
         <div>
           <h2 className="text-2xl md:text-4xl text-left font-cabinet font-bold text-[#FC7826] mb-4">
-            About Dr. Ikponmwen O.
+            About Dr. Ikponmwen .
           </h2>
           <p className="text-gray-800 mb-4 text-xl">
             Hello! I am Oluwaseun Ikponmwen, the founder of NICFREDZ BLS CLASS. As a dedicated CPR instructor,
