@@ -1,22 +1,22 @@
 import React from 'react';
-import AboutImage from '../assets/image/IMG-20250616-WA0006.png'; // replace with actual image path
+import AboutImage from '../assets/image/IMG-20250616-WA0006.png';
 
 const About = () => {
   return (
-    <section  id="about" className="w-full bg-white py-16 px-6 md:px-16">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <section id="about" className="w-full bg-white py-0 pb-16 px-0 md:px-16">
+      <div className="w-full max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         {/* Left - Image */}
-        <div>
+        <div className="w-full">
           <img
             src={AboutImage}
             alt="Dr. Ikponmwen and class"
-            className="w-full h-20 w-20 md:h-auto object-cover  shadow-md"
+            className="w-full h-auto object-cover shadow-md"
           />
         </div>
 
         {/* Right - Text */}
-        <div>
+        <div className="px-6 md:px-0">
           <h2 className="text-2xl md:text-4xl text-left font-cabinet font-bold text-black mb-4">
             About Dr. Ikponmwen O.
           </h2>
@@ -31,7 +31,7 @@ const About = () => {
             matters most – delivering exceptional patient care. Let’s work together to make a lifesaving impact!
           </p>
           <div className="flex md:justify-start justify-center">
-            <button className="bg-[#B46FEC] text-white font-semibold py-3 px-6 rounded hover:bg-purple-600 transition">
+            <button className="bg-[#B46FEC] text-white font-semibold py-4 px-6 rounded hover:bg-purple-600 transition">
               LEARN MORE
             </button>
           </div>
