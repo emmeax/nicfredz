@@ -77,7 +77,7 @@ const HeroSection = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-[80%] md:h-screen text-center px-6 space-y-6 py-10 md:py-0">
-        <h1 className="text-3xl md:text-5xl  font-bold text-3xl md:text-5xl font-bold leading-tight bg-gradient-to-r from-orange-400 via-amber-700 to-black md:text-white bg-clip-text text-transparent">
+        <h1 className="text-3xl md:text-5xl  font-bold text-3xl md:text-5xl font-bold leading-tight ">
           CPR, FIRST AID & AED TRAINING
         </h1>
         <p className="text-lg md:text-xl font-bold md:text-white text-[#3C3C3C] ">

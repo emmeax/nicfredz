@@ -12,7 +12,7 @@ const CPRTrainingSection = () => {
         {/* ====== Mobile Layout (h2 → Image → Text → Icons) ====== */}
         <div className="md:hidden">
           {/* Heading First */}
-<h1 className="text-2xl md:text-4xl text-center font-bold  mb-5 bg-gradient-to-r from-[#D29C4C] to-black bg-clip-text text-transparent">
+<h1 className="text-2xl md:text-4xl text-center font-bold  mb-5 ">
    CERTIFIED  CPR  TRAINING
 </h1>
 
