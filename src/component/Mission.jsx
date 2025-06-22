@@ -6,7 +6,7 @@ const MissionSection = () => {
   return (
     <section className="w-full flex font-cabinet font-bold flex-col md:flex-row">
       {/* Left Side - Text */}
-      <div className="md:bg-gradient-to-b from-[#D29C4C] to-black bg-[#694E26]  text-white md:w-[47%] w-full px-6 md:px-16 py-12 flex items-center">
+      <div className=" bg-[#B46FEC]  text-white md:w-[47%] w-full px-6 md:px-16 py-12 flex items-center">
         <div>
           <h2 className="text-4xl font-semibold mb-6">Our Mission</h2>
           <p className="text-base leading-relaxed ">

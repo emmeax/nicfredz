@@ -17,7 +17,7 @@ const About = () => {
 
         {/* Right - Text */}
         <div>
-          <h2 className="text-2xl md:text-4xl text-left font-cabinet font-bold text-[#FC7826] mb-4">
+          <h2 className="text-2xl md:text-4xl text-left font-cabinet font-bold text-black mb-4">
             About Dr. Ikponmwen O.
           </h2>
           <p className="text-gray-800 mb-4 text-xl">
@@ -31,7 +31,7 @@ const About = () => {
             matters most – delivering exceptional patient care. Let’s work together to make a lifesaving impact!
           </p>
           <div className="flex md:justify-start justify-center">
-            <button className="bg-[#F37022] text-white font-semibold py-3 px-6 rounded hover:bg-[#d95e1e] transition">
+            <button className="bg-[#B46FEC] text-white font-semibold py-3 px-6 rounded hover:bg-purple-600 transition">
               LEARN MORE
             </button>
           </div>

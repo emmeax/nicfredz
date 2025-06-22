@@ -63,7 +63,7 @@ const CPRTrainingSection = () => {
           {/* Text Section */}
           <div>
             <p className="text-sm font-semibold tracking-widest uppercase mb-2">What We Do</p>
-            <h2 className="text-5xl font-bold bg-gradient-to-r from-[#D29C4C] to-black bg-clip-text text-transparent mb-6 leading-tight">
+            <h2 className="text-5xl font-bold  mb-6 leading-tight">
               Certified CPR <br /> Training
             </h2>
             <p className="text-gray-800 mb-2">
@@ -101,7 +101,7 @@ const CPRTrainingSection = () => {
               <p className="font-semibold">Lifesaving Skills</p>
             </div>
             <div className="flex flex-col items-center text-center">
-              <img src={Stethoscope} alt="CPR Certification" className="w-10 mb-2" />
+              <img src={Stethoscope} alt="CPR Certification" className="w-10 mb-2 text-[#B46FEC]" />
               <p className="font-semibold">CPR Certification</p>
             </div>
           </div>

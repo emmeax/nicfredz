@@ -1,7 +1,7 @@
 const FooterCTA = () => {
   return (
     <div className="w-full py-20 flex flex-col justify-center items-center text-center
-      bg-gradient-to-r from-orange-400 via-amber-700 to-black">
+      bg-[#B46FEC]">
       <h2 className="text-3xl font-semibold text-white mb-6">
         Ready to get started?
       </h2>
