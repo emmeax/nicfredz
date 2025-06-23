@@ -31,7 +31,7 @@ const About = () => {
             matters most – delivering exceptional patient care. Let’s work together to make a lifesaving impact!
           </p>
           <div className="flex md:justify-start justify-center">
-            <button className="bg-[#B46FEC] text-white font-semibold py-4 px-6 rounded hover:bg-purple-600 transition">
+            <button className="bg-[#7D00E3] text-white font-semibold py-4 px-6 rounded hover:bg-purple-600 transition">
               LEARN MORE
             </button>
           </div>

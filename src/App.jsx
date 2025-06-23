@@ -3,6 +3,7 @@ import Hero from './component/Hero';
 import Mission from './component/Mission';
 import Services from './component/Services';
 import About from './component/About';
+import Contact from './component/Contact';
 import Footer from './component/Footer';
 
 function App() {
@@ -28,8 +29,13 @@ function App() {
 
         {/* Footer will be your Contact section */}
         <section id="contact">
+          <Contact />
+        </section>
+
+        <section id="">
           <Footer />
         </section>
+
       </div>
     </>
   );

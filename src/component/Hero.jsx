@@ -28,7 +28,7 @@ const HeroSection = () => {
        <div className="flex items-center gap-10">
           <div className="flex items-center gap-2 font-bold text-xl">
             <img src={icon} alt="Logo" className="w-8 h-8 mt-1" />
-            <span>MARINA MEDICALS</span>
+            <span className='md:text-white text-[#7D00E3]'>NICFREDZ BLS CLASS</span>
           </div>
 
           {/* Desktop Menu */}
@@ -41,7 +41,7 @@ const HeroSection = () => {
         </div>
 
         {/* Desktop Button */}
-        <button className="hidden md:inline-block px-5 font-bold py-2 bg-[#B46FEC] hover:bg-purple-600 rounded text-white text-sm">
+        <button className="hidden md:inline-block px-5 font-bold py-2 bg-[#7D00E3] hover:bg-purple-600 rounded text-white text-sm">
           BOOK AN APPOINTMENT
         </button>
 
@@ -61,7 +61,7 @@ const HeroSection = () => {
           <a href="#services" className="block text-lg font-medium hover:text-purple-400 transition" onClick={toggleMenu}>Services</a>
           <a href="#bookings" className="block text-lg font-medium hover:text-purple-400 transition" onClick={toggleMenu}>Bookings</a>
           <a href="#contact" className="block text-lg font-medium hover:text-purple-400 transition" onClick={toggleMenu}>Contact Us</a>
-          <button className="mt-2 w-full px-4  font-bold py-2 bg-[#B46FEC] hover:bg-purple-600 rounded text-white text-base font-semibold" onClick={toggleMenu}>
+          <button className="mt-2 w-full px-4  font-bold py-2 bg-[#7D00E3] hover:bg-purple-600 rounded text-white text-base font-semibold" onClick={toggleMenu}>
             BOOK AN APPOINTMENT
           </button>
         </div>
@@ -89,7 +89,7 @@ const HeroSection = () => {
         <p className="text-sm md:text-base md:hidden block font-bold md:text-white text-[#3C3C3C] ">
           At NICFREDZ BLS CLASS, we train healthcare professionals with lifesaving CPR, AED, and BLS skills with same-day certification.
         </p>
-        <button className="mt-4 px-6 py-3 font-bold bg-[#B46FEC] hover:bg-purple-600 rounded text-black font-semibold">
+        <button className="mt-4 px-6 py-3 font-bold bg-[#7D00E3] hover:bg-purple-600 rounded text-white font-semibold">
           BOOK AN APPOINTMENT
         </button>
 

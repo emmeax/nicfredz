@@ -1,12 +1,12 @@
 import React from 'react';
-// import RightPics from '../assets/image/IMG-20250616-WA0007.png'
+import RightPics from '../assets/image/IMG-20250616-WA0007.png'
 import MobileImg from '../assets/image/Image2025.png'
 
 const MissionSection = () => {
   return (
     <section className="w-full flex font-cabinet font-bold flex-col md:flex-row">
       {/* Left Side - Text */}
-      <div className=" bg-[#B46FEC]  text-white md:w-[47%] w-full px-6 md:px-16 py-12 flex items-center">
+      <div className=" bg-[#7D00E3]  text-white md:w-[47%] w-full px-6 md:px-16 py-12 flex items-center">
         <div>
           <h2 className="text-4xl font-semibold mb-6">Our Mission</h2>
           <p className="text-base leading-relaxed ">
@@ -30,9 +30,9 @@ const MissionSection = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="md:w-1/2 w-full md:hidden block">
+      <div className=" w-full md:hidden block">
         <img
-          src={MobileImg}
+          src={RightPics}
           alt="Mission Classroom"
           className="w-full h-full object-cover"
         />
