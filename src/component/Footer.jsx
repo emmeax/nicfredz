@@ -8,27 +8,29 @@ import Youtube from "../assets/image/Layer_1.png"
 
 const Footer = () => {
   return (
-    <footer className="bg-[#7F00FF] text-white px-6 md:px-14 py-12">
+    <footer className="bg-[#7D00E3] font-cabinet text-white px-6 md:px-14 py-12">
       <div className="md:max-w-7xl max-w-full mx-auto grid md:grid-cols-2 gap-10 md:gap-20">
         {/* Left Section */}
         <div className="space-y-6">
           {/* Desktop version */}
           <div className="hidden md:block space-y-2 ">
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg font-medium leading-relaxed">
               Keep in touch with us, let’s
               <br /> make a difference together:
             </p>
             <div className="flex items-center gap-2 text-white">
-              <MdEmail className="text-2xl" />
+              <img
+              src={Mail}
+              className="text-2xl" />
               <a
                 href="mailto:info@nicfredzlic.com"
-                className="underline"
+                className="underline font-regular"
               >
                 info@nicfredzlic.com
               </a>
             </div>
             <div className="mt-4 flex gap-2">
-              <p className="text-lg font-medium mb-2">Follow us:</p>
+              <p className="text-lg font-medium mb-2 font-medium">Follow us:</p>
               <div className="flex items-center gap-4 text-white">
                 <a href="#" aria-label="Facebook">
                   <img src={Facebook} className="w-6 h-6" alt="Facebook" />
@@ -81,7 +83,7 @@ const Footer = () => {
         <div className="flex flex-col justify-between md:ml-[42%] ml-0 space-y-6 text-white">
           <div className="md:space-y-4 space-y-0 hidden md:flex flex-col items-start">
             <p className="text-2xl font-semibold">Ready to get started?</p>
-            <button className="bg-white text-black font-semibold md:py-3 md:px-6 px-10 rounded-md w-fit hover:bg-gray-100 transition">
+            <button className="bg-white text-black font-semibold md:py-3 md:px-4 px-10  w-fit hover:bg-gray-100 transition">
               BOOK YOUR FREE CONSULTATION
             </button>
           </div>
