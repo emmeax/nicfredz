@@ -16,22 +16,31 @@ const About = () => {
         </div>
 
         {/* Right - Text */}
-        <div className="px-6 md:px-0">
+        <div className="px-6 md:px-0 max-w-prose">
           <h2 className="text-2xl md:text-4xl md:text-left text-center font-cabinet font-bold text-black mb-4">
             About Dr. Ikponmwen O.
           </h2>
-          <p className="text-gray-800 mb-4 text-xl">
+
+          <p
+            className="text-gray-800 mb-4 text-xl font-normal"
+            style={{ textAlign: 'justify' }}
+          >
             Hello! I am Oluwaseun Ikponmwen, the founder of NICFREDZ BLS CLASS. As a dedicated CPR instructor,
             I'm passionate about empowering healthcare professionals with skills and confidence to save lives.
             With a focus on hands-on training and same-day certification, I strive to make a difference in my
             community, one heartbeat at a time.
           </p>
-          <p className="text-gray-800 mb-6">
+
+          <p
+            className="text-gray-800 md:mb-6 mb-14 font-normal"
+            style={{ textAlign: 'justify' }}
+          >
             My goal is to provide top-notch training that meets the highest standards, so you can focus on what
             matters most – delivering exceptional patient care. Let’s work together to make a lifesaving impact!
           </p>
-          <div className="flex md:justify-start justify-center">
-            <button className="bg-[#7D00E3] text-white font-semibold py-4 px-6 rounded hover:bg-purple-600 transition">
+
+          <div className="flex md:justify-start justify-center  ">
+            <button className="bg-[#7D00E3] text-white font-semibold py-3 px-6  hover:bg-purple-600 transition">
               LEARN MORE
             </button>
           </div>

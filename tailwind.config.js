@@ -8,6 +8,7 @@ export default {
     extend: {
        fontFamily: {
         cabinet: ['"Cabinet Grotesk"', 'sans-serif'],
+        general: ['"General Sans"', 'sans-serif'],
       },
     },
   },

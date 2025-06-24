@@ -1,16 +1,19 @@
 import React from 'react';
-import RightPics from '../assets/image/IMG-20250616-WA0007.png'
-import MobileImg from '../assets/image/IMG-20250616-WA0009 2.png'
+import RightPics from '../assets/image/IMG-20250616-WA0007.png';
+import MobileImg from '../assets/image/IMG-20250616-WA0009 2.png';
 
 const MissionSection = () => {
   return (
-    <section className="w-full flex font-cabinet font-bold flex-col md:flex-row">
+    <section className="w-full flex flex-col md:flex-row font-bold">
       {/* Left Side - Text */}
-      <div className=" bg-[#7D00E3]  text-white md:w-[47%] w-full px-6 md:px-16 py-12 flex items-center">
-        <div>
-          <h2 className="text-4xl font-semibold mb-6">Our Mission</h2>
-          <p className="text-base leading-relaxed ">
-            At <span className="font-semibold">NICFREDZ BLS CLASS</span>, our mission is to raise a new
+      <div className="bg-[#7D00E3] text-white md:w-[47%] w-full px-6 md:px-16 py-12 flex items-center">
+        <div className="max-w-prose">
+          <h2 className="text-4xl font-cabinet font-semibold md:text-left text-center mb-6">Our Mission</h2>
+          <p
+            className="text-base font-cabinet leading-relaxed font-normal"
+            style={{ textAlign: 'justify' }}
+          >
+            At NICFREDZ BLS CLASS our mission is to raise a new
             standard of emergence preparedness by equipping healthcare professionals with the skills,
             confidence, and clarity needed to respond effectively in life-threatening situations. We believe
             that CPR and Basic Life Support training should go beyond checking boxes, it should empower
@@ -30,7 +33,9 @@ const MissionSection = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className=" w-full md:hidden block">
+
+      {/* Mobile Image */}
+      <div className="w-full md:hidden block">
         <img
           src={RightPics}
           alt="Mission Classroom"

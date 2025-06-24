@@ -25,7 +25,7 @@ const HeroSection = () => {
 
       {/* Navbar */}
       <nav className="relative z-10 flex justify-between items-center px-6 py-4">
-       <div className="flex items-center gap-10">
+       <div className="flex items-center gap-0">
           <div className="flex items-center gap-2 font-bold text-xl">
             <img src={icon} alt="Logo" className="w-8 h-8 mt-1" />
             <span className='md:text-white text-[#7D00E3]'>NICFREDZ BLS CLASS</span>

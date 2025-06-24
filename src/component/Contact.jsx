@@ -3,7 +3,7 @@ import contactBg from "../assets/image/IMG-20250616-WA0007 2.png";
 
 const Contact = () => {
   return (
-<section className=" font-cabinet relative w-full bg-[#7D00E3] text-white px-6 pt-12 pb-6 md:pt-24 md:pb-12">
+<section className=" font-cabinet relative w-full bg-[#7D00E3] text-white px-6 pt-12 pb-6 mt-10 md:pt-24 md:pb-12">
       {/* Mobile Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat md:hidden"
