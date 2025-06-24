@@ -1,6 +1,6 @@
 import React from 'react';
 import RightPics from '../assets/image/IMG-20250616-WA0007.png'
-import MobileImg from '../assets/image/Image2025.png'
+import MobileImg from '../assets/image/IMG-20250616-WA0009 2.png'
 
 const MissionSection = () => {
   return (
