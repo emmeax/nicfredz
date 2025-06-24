@@ -16,11 +16,18 @@ const Contact = () => {
         {/* Left content */}
         <div className="space-y-6 text-white md:ml-0 ml-5">
           <h2 className="text-3xl md:text-5xl font-bold">CONTACT US</h2>
-          <p className="text-md leading-relaxed font-light">
+          <p className="text-md leading-relaxed font-light  md:block hidden">
             <span className="font-semibold text-xl text-white">
-              Ready to take the first step toward becoming a lifesaver?
+              Ready to take the first step toward becoming a <br /> lifesaver?
             </span>{" "}
-            Whether you have questions, want to schedule a class, or simply
+            Whether you have questions, want to schedule <br /> a class, or simply
+            need guidance we're here to help.
+          </p>
+          <p className="text-md leading-relaxed font-light md:hidden block">
+            <span className="font-semibold text-xl text-white">
+              Ready to take the first step toward becoming a <br /> lifesaver? lifesaver?Then reach out to us!
+            </span>{" "}
+            Whether you have questions, want to book a class, or simply
             need guidance we're here to help.
           </p>
           {/* Desktop Image */}
