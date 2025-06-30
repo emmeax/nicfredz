@@ -1,95 +1,100 @@
 import React from "react";
-import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt, FaInstagram,FaFacebookF} from "react-icons/fa";
+// import { MdEmail } from "react-icons/md";
+// import { BsHeartPulseFill } from "react-icons/bs";
 import Facebook from "../assets/image/Frame (1).png";
-import LinkedinIn from "../assets/image/Frame (3).png";
-import x from "../assets/image/Frame (4).png"
-import Mail from "../assets/image/Vector (6).png"
-import Youtube from "../assets/image/Layer_1.png"
+import Instagram from "../assets/image/Instagram_logo.png";
+// import X from "../assets/image/Frame (4).png";
+import MailIcon from "../assets/image/Vector (6).png";
+import icon from '../assets/image/icon.png';
+// import Youtube from "../assets/image/Layer_1.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#7D00E3] font-cabinet text-white px-6 md:px-14 py-12">
-      <div className="md:max-w-7xl max-w-full mx-auto grid md:grid-cols-2 gap-10 md:gap-20">
-        {/* Left Section */}
-        <div className="space-y-6">
-          {/* Desktop version */}
-          <div className="hidden md:block space-y-2 ">
-            <p className="text-lg font-medium leading-relaxed">
-              Keep in touch with us, let’s
-              <br /> make a difference together:
-            </p>
-            <div className="flex items-center gap-2 text-white">
-              <img
-              src={Mail}
-              className="text-2xl" />
-              <a
-                href="mailto:info@nicfredzlic.com"
-                className="underline font-regular"
-              >
-                info@nicfredzlic.com
-              </a>
-            </div>
-            <div className="mt-4 flex gap-2">
-              <p className="text-lg font-medium mb-2 font-medium">Follow us:</p>
-              <div className="flex items-center gap-4 text-white">
-                <a href="#" aria-label="Facebook">
-                  <img src={Facebook} className="w-6 h-6" alt="Facebook" />
-                </a>
-                <a href="#" aria-label="LinkedIn">
-                  <img src={LinkedinIn} className="w-6 h-6" alt="LinkedIn" />
-                </a>
-              </div>
-            </div>
-          </div>
+    <footer className="bg-[#9100D4] text-white py-12 px-6 md:px-16">
+      <div className="max-w-7xl mx-auto">
 
-          {/* Mobile version */}
-          <div className="md:hidden flex flex-col items-center space-y-6 ">
-            <p className="text-2xl font-semibold text-center">
-              Ready to get started?
-            </p>
-            <button className=" bg-white text-black font-semibold py-4 px-6  hover:bg-gray-100 transition w-full max-w-[350px]">
+        {/* Logo + Brand above divider */}
+        <div className="hidden md:flex items-center gap-2 font-semibold text-white text-sm mb-6">
+  <img src={icon} className="text-yellow-300 text-xl mt-2" />
+  NICFREDZ BLS CLASS
+</div>
+
+        {/* ✅ MOBILE LAYOUT */}
+        <div className="md:hidden flex flex-col items-center text-center gap-6">
+          <div className="">
+            <p className="text-2xl font-semibold mb-3">Ready to get started?</p>
+            <button className="bg-white text-black  mb-6 font-semibold px-6 py-4 ">
               BOOK YOUR FREE CONSULTATION
             </button>
-            <div className="flex items-center gap-2 text-2xl">
-              <img
-               src={Mail}
-               className="text-2xl w-8" />
-              <a
-                href="mailto:info@nicfredzlic.com"
-                className="underline"
-              >
-                info@nicfredzlic.com
-              </a>
-            </div>
-            <div className="flex items-center gap-5">
-              <p className="text-xl font-medium">Follow us:</p>
-              <a href="#" aria-label="Facebook">
-                <img src={Facebook} className="w-6 h-6" alt="Facebook" />
-              </a>
-              <a href="#" aria-label="LinkedIn">
-                <img src={LinkedinIn} className="w-6 h-6" alt="LinkedIn" />
-              </a>
-              <a href="#" aria-label="LinkedIn">
-                <img src={Youtube} className="w-6 h-6" alt="LinkedIn" />
-              </a>
-              <a href="#" aria-label="LinkedIn">
-                <img src={x} className="w-6 h-6" alt="LinkedIn" />
-              </a>
-            </div>
+             <p className="text-base  ml-10 text-left leading-relaxed">
+            44, Glenwood Ave, East-<br />
+            Orange NJ 07017 Suite 201.
+          </p>
+
+          <div className="flex items-center gap-2  ml-10  text-left text-lg font-bold">
+            <FaPhoneAlt />
+            862-215-6009
           </div>
+
+          <div className="flex  ml-10 items-center gap-2">
+            <img src={MailIcon} className="text-lg" />
+            info@nicfredzlic.com
+          </div>
+
+          <div className="flex  ml-10 items-center gap-3 mt-3">
+            <p>Follow us:</p>
+            <img src={Facebook} alt="" className="text-white w-[15%]  rounded-full p-1 text-xl" />
+            <img src={Instagram} alt="" className="text-white w-[15%]  rounded-md p-1 text-xl" />
+          </div>
+          </div>
+
+         
         </div>
 
-        {/* Right Section */}
-        <div className="flex flex-col justify-between md:ml-[42%] ml-0 space-y-6 text-white">
-          <div className="md:space-y-4 space-y-0 hidden md:flex flex-col items-start">
-            <p className="text-2xl font-semibold">Ready to get started?</p>
-            <button className="bg-white text-black font-semibold md:py-3 md:px-4 px-10  w-fit hover:bg-gray-100 transition">
-              BOOK YOUR FREE CONSULTATION
-            </button>
+        {/* ✅ DESKTOP LAYOUT */}
+        <div className="hidden md:grid border-t border-white/30 pt-6 grid-cols-3 gap-10 text-sm">
+          {/* Column 1 */}
+          <div className="space-y-4">
+            <p className="text-white text-base">
+              Keep in touch with us, let’s <br />
+              make a difference together:
+            </p>
+            <div className="flex items-center gap-3 text-lg font-bold">
+              <FaPhoneAlt />
+              862-215-6009
+            </div>
           </div>
-          <div className="text-sm mt-10 md:block hidden">
-            <p>© NICFREDZ BLS CLASS.</p>
-            <p>All rights reserved.</p>
+
+          {/* Column 2 */}
+          <div className="space-y-4">
+            <p className="text-base">
+              44, Glenwood Ave, East-<br />
+              Orange NJ 07017 Suite 201.
+            </p>
+            <div className="flex items-center gap-3">
+              <img src={MailIcon} className="text-lg" />
+              <span>info@nicfredzlic.com</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <p>Follow us:</p>
+              <img src={Facebook} alt="" className="text-white   rounded-full p-1 text-xl" />
+            <img src={Instagram} alt="" className="text-white   rounded-md p-1 text-xl" />
+            </div>
+          </div>
+
+          {/* Column 3 */}
+          <div className="flex flex-col items-end justify-between space-y-6">
+            <div>
+              <p className="text-xl font-semibold mb-4">Ready to get started?</p>
+              <button className="bg-white text-black font-semibold px-6 py-2 rounded-lg">
+                BOOK YOUR FREE CONSULTATION
+              </button>
+            </div>
+            <div className="text-sm text-white/80 mr-[33%]">
+              <p className="">© NICFREDZ BLS CLASS.</p>
+              <p>All rights reserved.</p>
+            </div>
           </div>
         </div>
       </div>

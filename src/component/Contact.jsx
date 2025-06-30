@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="absolute inset-0 bg-[#7D00E3]/80"></div>
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div className="relative font-cabinet z-10 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Left content */}
         <div className="space-y-6 text-white md:ml-0 ml-5">
           <h2 className="text-3xl md:text-5xl font-bold">CONTACT US</h2>
@@ -34,7 +34,7 @@ const Contact = () => {
           <img
             src={contactBg}
             alt="CPR class"
-            className="rounded-lg shadow-lg hidden md:block"
+            className=" shadow-lg hidden md:block"
           />
         </div>
 
@@ -60,7 +60,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full py-2  rounded-lg md:bg-black bg-white md:text-white text-[#941EF3] font-semibold text-lg hover:bg-gray-900 transition"
+            className="w-full py-2  rounded-lg  bg-white  text-[#941EF3] font-semibold text-lg hover:bg-gray-900 transition"
           >
             Send Message
           </button>

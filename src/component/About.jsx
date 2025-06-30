@@ -16,7 +16,7 @@ const About = () => {
         </div>
 
         {/* Right - Text */}
-        <div className="px-6 md:px-0 max-w-prose">
+        <div className="px-6 md:px-0 max-w-prose font-cabinet">
           <h2 className="text-2xl md:text-4xl md:text-left text-center font-cabinet font-bold text-black mb-4">
             About Dr. Ikponmwen O.
           </h2>
