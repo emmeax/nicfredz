@@ -40,7 +40,7 @@ const About = () => {
           </p>
 
           <div className="flex md:justify-start justify-center  ">
-            <button className="bg-[#7D00E3] text-white font-semibold py-3 px-6  hover:bg-purple-600 transition">
+            <button className="bg-[#7D00E3] text-white rounded-xl font-semibold py-3 px-6  hover:bg-purple-600 transition">
               LEARN MORE
             </button>
           </div>

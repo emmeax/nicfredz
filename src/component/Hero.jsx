@@ -24,7 +24,7 @@ const HeroSection = () => {
       </div>
 
       {/* Navbar */}
-      <nav className="relative z-10 mx-4 mt-4 md:mx-24 md:mt-6 border border-white rounded-full flex justify-between items-center px-4 py-3 md:px-6 md:py-4">
+      <nav className="relative z-10 mx-4 mt-4 md:mx-24 md:mt-6 border border-white rounded-xl flex justify-between items-center px-4 py-3 md:px-2 md:py-1">
         {/* Logo */}
         <div className="flex items-center gap-2 font-bold text-sm md:text-lg text-white">
           <img src={icon} alt="Logo" className="w-6 h-6 md:w-8 md:h-8" />
@@ -40,13 +40,13 @@ const HeroSection = () => {
         </ul>
 
         {/* Desktop Button */}
-        <button className="hidden md:inline-block px-6 py-2 text-sm font-bold bg-[#7D00E3] hover:bg-purple-700 text-white rounded-full transition">
+        <button className="hidden md:inline-block px-6 py-2 text-sm font-bold bg-[#7D00E3] hover:bg-purple-700 text-white rounded-xl transition">
           BOOK AN APPOINTMENT
         </button>
 
         {/* Mobile Hamburger */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-white">
+          <button onClick={toggleMenu} className="text-black">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
@@ -59,7 +59,7 @@ const HeroSection = () => {
           <a href="#services" className="block text-base font-medium hover:text-purple-400 transition" onClick={toggleMenu}>Services</a>
           <a href="#bookings" className="block text-base font-medium hover:text-purple-400 transition" onClick={toggleMenu}>Bookings</a>
           <a href="#contact" className="block text-base font-medium hover:text-purple-400 transition" onClick={toggleMenu}>Contact Us</a>
-          <button className="mt-2 w-full px-4 py-2 bg-[#7D00E3] hover:bg-purple-600 rounded text-white font-semibold text-base" onClick={toggleMenu}>
+          <button className="mt-2 w-full px-4 rounded-xl py-2 bg-[#7D00E3] hover:bg-purple-600 rounded text-white font-semibold text-base" onClick={toggleMenu}>
             BOOK AN APPOINTMENT
           </button>
         </div>
@@ -88,7 +88,7 @@ const HeroSection = () => {
         <p className="text-sm md:text-base font-bold md:hidden block text-[#3C3C3C]">
           At NICFREDZ BLS CLASS, we train healthcare professionals with lifesaving CPR, AED, and BLS skills with same-day certification.
         </p>
-        <button className="mt-4 px-6 py-3 font-bold bg-[#7D00E3] hover:bg-purple-600 rounded text-white font-semibold">
+        <button className="mt-4 px-6 py-3 rounded-xl font-bold bg-[#7D00E3] hover:bg-purple-600 rounded text-white font-semibold">
           BOOK AN APPOINTMENT
         </button>
       </div>
