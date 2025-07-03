@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
     <section className="bg-[#f9f9f9] px-6 md:px-14 py-16">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <h2 className="md:text-center text-left text-3xl md:text-4xl font-bold text-[#7F00FF] mb-12">
+        <h2 className="md:text-center font-cabinet text-left text-3xl md:text-4xl font-bold text-[#7F00FF] mb-12">
           WHY CHOOSE NICFREDZ BLS CLASS?
         </h2>
 
@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Reasons Column */}
-          <div className="space-y-5 md:space-y-6">
+          <div className="space-y-5 font-open md:space-y-6">
             {reasons.map((item, index) => (
               <div
                 key={index}
@@ -60,8 +60,8 @@ const WhyChooseUs = () => {
               >
                 <div className="p-2 bg-[#F4F4FF] rounded-full">{item.icon}</div>
                 <div>
-                  <h3 className="text-lg font-semibold">{item.title}</h3>
-                  <p className="text-sm text-gray-700">{item.text}</p>
+                  <h3 className="text-lg font-cabinet font-semibold">{item.title}</h3>
+                  <p className="text-sm font-open font-regular text-gray-700">{item.text}</p>
                 </div>
               </div>
             ))}
@@ -73,10 +73,10 @@ const WhyChooseUs = () => {
   {/* Heading and Button */}
   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
     <div>
-      <h3 className="text-lg md:text-2xl font-semibold text-center md:text-left">
+      <h3 className="text-lg md:text-2xl font-cabinet font-semibold text-center md:text-left">
         Join Our Community of Lifesavers
       </h3>
-      <p className="text-sm md:text-base text-gray-700 mt-2 text-center md:text-left max-w-xl">
+      <p className="text-sm md:text-base font-open font-regular text-gray-700 mt-2 text-center md:text-left max-w-xl">
         Let’s work together to make a difference, one heartbeat at a time. <br className="hidden md:block" />
         Contact us to schedule your CPR Training!
       </p>
@@ -91,7 +91,7 @@ const WhyChooseUs = () => {
   </div>
 
   {/* Tags Section */}
-  <div className="mt-6 flex flex-wrap justify-center md:block hidden md:justify-start gap-3">
+  <div className="mt-6 font-open font-light flex flex-wrap justify-center md:block hidden md:justify-start gap-3">
     {["CPR", "BLS", "LifesavingSkills", "HealthCare", "TrainingMatters"].map((tag, index) => (
       <span
         key={index}
