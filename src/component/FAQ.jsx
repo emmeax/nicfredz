@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
     <section className="bg-[#f9f9f9] px-6 md:px-14 py-16">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <h2 className="text-center text-2xl md:text-4xl font-bold text-[#7F00FF] mb-12">
+        <h2 className="md:text-center text-left text-3xl md:text-4xl font-bold text-[#7F00FF] mb-12">
           WHY CHOOSE NICFREDZ BLS CLASS?
         </h2>
 
@@ -69,39 +69,50 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Bottom CTA Section */}
-        <div className="mt-14 p-6 md:p-8 border border-[#D0B4FF] rounded-xl bg-white space-y-5 text-center md:text-left">
-          <h3 className="text-lg md:text-xl font-semibold">
-            <div className="flex justify-center md:justify-start">
-            Join Our Community of Lifesavers
-              <button className="bg-[#7F00FF] hover:bg-purple-700 text-white font-semibold text-sm md:text-base px-6 py-1 rounded-md  ml-[50%] transition-all w-[20%]">
-                BOOK AN APPOINTMENT
-              </button>
-            </div>
-            <p className="text-sm md:text-base text-gray-700 max-w-3xl mx-auto md:mx-0 ">
-            Let’s work together to make a difference, one heartbeat at a time. Contact us to <br /> schedule your CPR Training!
-          </p>
-          </h3>
-          
+<div className="mt-14 p-6 md:p-8 border border-[#D0B4FF] rounded-xl bg-white">
+  {/* Heading and Button */}
+  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+    <div>
+      <h3 className="text-lg md:text-2xl font-semibold text-center md:text-left">
+        Join Our Community of Lifesavers
+      </h3>
+      <p className="text-sm md:text-base text-gray-700 mt-2 text-center md:text-left max-w-xl">
+        Let’s work together to make a difference, one heartbeat at a time. <br className="hidden md:block" />
+        Contact us to schedule your CPR Training!
+      </p>
+    </div>
 
-          <div className="flex flex-col gap-4 md:flex-row md:justify-between md:items-center mt-4">
-            {/* Button */}
-           
+    {/* Appointment Button */}
+    <div className="flex justify-center md:justify-end">
+      <button className="bg-[#7F00FF] hover:bg-purple-700 text-white font-semibold text-sm md:text-base px-6 py-3 rounded-lg transition-all w-full md:w-auto">
+        BOOK AN APPOINTMENT
+      </button>
+    </div>
+  </div>
 
-            {/* Tags Section */}
-            <div className="w-full flex justify-center md:justify-start">
-              <div className="flex flex-wrap justify-center gap-2">
-                {["HealthCare", "LifesavingSkills", "TrainingMatters", "BLS", "CPR"].map((tag) => (
-                  <span
-                    key={tag}
-                    className="bg-[#E4EEFF] text-[#4A6EE0] text-sm px-4 py-1.5 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
+  {/* Tags Section */}
+  <div className="mt-6 flex flex-wrap justify-center md:block hidden md:justify-start gap-3">
+    {["CPR", "BLS", "LifesavingSkills", "HealthCare", "TrainingMatters"].map((tag, index) => (
+      <span
+        key={index}
+        className="bg-[#E4EEFF] text-[#7F00FF] text-sm px-4 py-1.5 rounded-full font-medium"
+      >
+        {tag}
+      </span>
+    ))}
+  </div>
+  <div className="mt-6 flex flex-wrap justify-center md:hidden block md:justify-start gap-3">
+    {["HealthCare", "LifesavingSkills", "TrainingMatters", "BLS", "CPR"   ].map((tag, index) => (
+      <span
+        key={index}
+        className="bg-[#E4EEFF] text-[#7F00FF] text-sm px-4 py-1.5 rounded-full font-medium"
+      >
+        {tag}
+      </span>
+    ))}
+  </div>
+</div>
+
       </div>
     </section>
   );
