@@ -1,31 +1,35 @@
 import React from "react";
-import {
-  FaUserMd,
-  FaUsers,
-  FaCertificate,
-  FaHandsHelping,
-} from "react-icons/fa";
+// import {
+//   FaUserMd,
+//   FaUsers,
+//   FaCertificate,
+//   FaHandsHelping,
+// } from "react-icons/fa";
+import Vector from '../assets/image/Vector (7).png'
+import Vector1 from '../assets/image/Vector (8).png'
+import Vector2 from '../assets/image/Vector (9).png'
+import Vector3 from '../assets/image/Vector (10).png'
 import Image from "../assets/image/IMG-20250616-WA0005.png"; // Replace with your actual image path
 
 const WhyChooseUs = () => {
   const reasons = [
     {
-      icon: <FaUserMd className="text-2xl text-[#7F00FF]" />,
+      icon: <img src={Vector} className="text-2xl text-[#7F00FF]" />,
       title: "Certified Expertise",
       text: "Learn from experienced, licensed professionals who guide you every step of the way.",
     },
     {
-      icon: <FaUsers className="text-2xl text-[#7F00FF]" />,
+      icon: <img src={Vector1} className="text-2xl text-[#7F00FF]" />,
       title: "All Ages Covered",
       text: "Hands-on training for adults, children and infants. Customized to each learner.",
     },
     {
-      icon: <FaCertificate className="text-2xl text-[#7F00FF]" />,
+      icon: <img src={Vector2} className="text-2xl text-[#7F00FF]" />,
       title: "Instant Certification",
       text: "Get certified the same day. No delay, no stress.",
     },
     {
-      icon: <FaHandsHelping className="text-2xl text-[#7F00FF]" />,
+      icon: <img src={Vector3} className="text-2xl text-[#7F00FF]" />,
       title: "Confidence Through Care",
       text: "We ensure personal attention so you leave every session ready to save lives.",
     },
